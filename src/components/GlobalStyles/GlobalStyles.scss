@@ -1,0 +1,155 @@
+:root {
+    --black: #000;
+    --white: #ffffff;
+    /*graycool  */
+    --gray900: #111827;
+    --gray800: #1f2937;
+    --gray700: #374151;
+    --gray600: #4b5563;
+    --gray500: #6b7280;
+    --gray400: #9ca3af;
+    --gray300: #d1d5db;
+    --gray200: #e5e7eb;
+    --gray100: #f3f4f6;
+    --gray050: #f9fafb;
+    /* red */
+    --red900: #771d1d;
+    --red800: #9b1c1c;
+    --red700: #c81e1e;
+    --red600: #e02424;
+    --red500: #f05252;
+    --red400: #f98080;
+    --red300: #f8b4b4;
+    --red200: #fbd5d5;
+    --red100: #fde8e8;
+    --red50: #fdf2f2;
+    /* green */
+    --green900: #014737;
+    --green800: #03543f;
+    --green700: #046c4e;
+    --green600: #057a55;
+    --green500: #0e9f6e;
+    --green400: #31c48d;
+    --green300: #84e1bc;
+    --green200: #bcf0da;
+    --green100: #def7ec;
+    --green50: #f3faf7;
+    /* blue */
+    --blue900: #233876;
+    --blue800: #1e429f;
+    --blue700: #1a56db;
+    --blue600: #1c64f2;
+    --blue500: #3f83f8;
+    --blue400: #76a9fa;
+    --blue300: #a4cafe;
+    --blue200: #c3ddfd;
+    --blue100: #e1effe;
+    --blue50: #ebf5ff;
+    font-family: "Inter"
+}
+
+.green--status {
+    color: var(--green80)0;
+    background-color: var(--green10)0;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.red--status {
+    color: var(--red800);
+    background-color: var(--red100);
+}
+
+.blue--status {
+    color: var(--blue800);
+    background-color: var(--blue100);
+
+}
+
+.gray--status {
+    color: var(--gray800);
+    background-color: var(--gray100);
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.active {
+    color: var(--blue500) !important;
+}
+
+.frontBold {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: var(--gray900);
+}
+
+.frontF {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 21px;
+    color: var(--gray600);
+}
+
+.frontS {
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--gray600);
+    font-size: 14px;
+}
+
+.frontXs {
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--gray500);
+    font-size: 12px;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.red {
+    color: var(--red500)
+}
+
+.green {
+    color: var(--green50)0;
+}
+
+.blue {
+    color: var(--blue500);
+}
+
+.displayNone {
+    display: none !important;
+    position: absolute !important;
+}
+
+.left {
+    text-align: left;
+}
+
+@mixin flexc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,0 +1,72 @@
+.wrapper__chart23 {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    box-sizing: border-box;
+}
+
+.chart2 {
+
+    background-color: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 16px;
+
+}
+
+.chart3 {
+    flex-grow: 1;
+    background-color: #fff;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+
+}
+
+.chart__total {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0 16px;
+
+    div {
+        div {
+            canvas {
+                width: 100% !important;
+            }
+        }
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    width: 100%;
+
+}
+
+.timeline {
+    width: 300px;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+
+.listorder {
+    flex-grow: 1;
+    height: 700px;
+
+}
+
+.timeline-_chart {
+    background-color: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 16px;
+}
